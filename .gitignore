@@ -1,0 +1,17 @@
+# AWS
+.aws/
+*.pem
+credentials
+*credentials*
+
+# Terraform (for later in the month)
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+
+# Python (if we script anything)
+venv/
+__pycache__/
+*.pyc
+
